@@ -1,0 +1,119 @@
+
+.bg{
+
+   background:black;
+}
+
+.carousel-item img{
+   height: 550px;
+   width: 100%;
+   
+}
+.from-bg{
+   background: url('../img/d.jpg') no-repeat; width:100%; height: 100vh;
+}
+
+.form-container{
+    padding: 50px 60px; margin-top:20vh;
+   -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+   -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+color:#fff;
+
+ }
+ #getstarted{
+    background:url('../img/e.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no;
+   position: relative;
+   min-height: 250px;
+ }
+ .dark-overlay{
+       background: rgba(0,0,0,0.75);
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+}
+.navbar-brand img{
+   width: 50px;
+   height: 45px;
+   border: 1px solid #000;
+   padding: 2px 2px;
+   margin: 3px;
+   
+}
+
+#home-video{
+   background:url('../img/g.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+   background-repeat: no;
+  position: relative;
+  min-height: 250px;
+}
+.dark-overlay{
+      background: rgba(0,0,0,0.75);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+}
+.fa1 .fa{
+
+   color: red;
+ 
+}
+#gallary img{
+   min-height: 220px;
+}
+#copyright{
+   background: #000;
+   color: #fff;
+}
+#page-header{
+   background:url('../img/h.jpg');
+   background-size: cover;
+   height: 200px;
+   background-attachment: fixed;
+}
+#wedo img{
+   
+      width:290px;
+      height:290px;
+
+   
+}
+#testimonial .slick-prev::before{
+   color: #000;
+}
+#testimonial .slick-next::before{
+   color: #000;
+}
+#blog-page{
+   background: url('../img/n.jpg');
+   background-size: cover;
+   height: 200px;
+   background-attachment: fixed;
+}
+
+
+
+
+
+@media(max-width:480px){
+   #getstarted{
+      
+     min-height: 450px;
+
+   }
+   #page-header{
+      background:url('img/h.jpg');
+      background-size: cover;
+      height: 280px;
+      
+   }
+}
